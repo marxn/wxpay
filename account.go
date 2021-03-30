@@ -32,3 +32,7 @@ func (a *Account) SetCertData(certPath string) {
 	}
 	a.certData = certData
 }
+
+func (a *Account) SetCertDataBlock(data []byte) {
+	a.certData = data
+}
